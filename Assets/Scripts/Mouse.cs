@@ -6,6 +6,8 @@ public class Mouse : MonoBehaviour {
 	//declare a public variable, of type Transform, called "cat"
 	public Transform cat; 
 	public float thrust = 5f; 
+	public AudioSource Scared;
+
 	Rigidbody rb;
 
 
@@ -35,6 +37,7 @@ public class Mouse : MonoBehaviour {
 				if(mouseRayHitInfo.collider.tag == "Cat")
 				{
 					//add force on rigidbody, along [-directionToCat.normalized * 1000f] (run away!)
+					Scared.Play ();
 					rb.AddForce(-directionToCat.normalized *1000f);
 				}
 			}

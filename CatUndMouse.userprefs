@@ -1,9 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\Programming\CubeSpinnerPractice\CubeSpinnerPractice.userprefs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Cat.cs">
     <Files>
-      <File FileName="..\..\Programming\HouseHomework\Assets\Scripts\Blue.cs" Line="1" Column="1" />
-      <File FileName="..\..\Programming\CubeSpinnerPractice\CubeSpinnerPractice.userprefs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Cat.cs" Line="27" Column="3" />
+      <File FileName="Assets\Scripts\Mouse.cs" Line="40" Column="21" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

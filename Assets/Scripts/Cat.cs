@@ -5,7 +5,7 @@ public class Cat : MonoBehaviour {
 
 	public Transform mouse; 
 	public float thrust = 5f; 
-	public AudioSource Hungry, Happy;
+	public AudioSource Eat, Happy;
 	public float myVolume = 1f;
 
 	private AudioSource source;  
@@ -41,7 +41,7 @@ public class Cat : MonoBehaviour {
 				if (catRayHitInfo.collider.tag == "Mouse")
 				{
 					//if catRayHitInfo.distance is less than or equal to 5...
-					Hungry.Play ();
+					Eat.Play ();
 					if (catRayHitInfo.distance <= 0.5)
 					{
 						// then destroy the mouse gameObject (we caught the mouse!)
