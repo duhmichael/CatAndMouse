@@ -1,9 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Cat.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\Programming\week10\Assets\Scripts\Fish.cs">
     <Files>
-      <File FileName="Assets\Scripts\Cat.cs" Line="27" Column="3" />
-      <File FileName="Assets\Scripts\Mouse.cs" Line="40" Column="21" />
+      <File FileName="..\..\Programming\week10\Assets\Scripts\Fish.cs" Line="11" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
