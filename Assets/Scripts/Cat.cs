@@ -20,13 +20,16 @@ public class Cat : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-	
+
+
+		for (int x = 0; x < GameManager.listOfMice.Count; x++)
+		{
 		//declare a var of type Vector3, called "directionToMouse",
 		//set to a vector that goes from [current position] to [mouse's current position]
 		Vector3 directionToMouse = (mouse.position - transform.position);
 
 		//if the angle between [current forward direction] vs. [directionToMouse] is less than 90 degrees, then...
-		if (Vector3.Angle (transform.forward, directionToMouse) < 90f)
+		if (Vector3.Angle (transform.forward, directionToMouse) < 180f)
 		{
 			// declare a var of type Ray, called "catRay" that starts from [current position] and goes along [directionToMouse]
 			Ray catRay = new Ray (transform.position, directionToMouse);
@@ -57,6 +60,7 @@ public class Cat : MonoBehaviour {
 				}
 		}
 
+	}
 	}
 }
 

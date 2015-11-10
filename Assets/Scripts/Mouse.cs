@@ -19,6 +19,9 @@ public class Mouse : MonoBehaviour {
 
 	// Update is called once per frame
 	void FixedUpdate () {
+
+		for (int x = 0; x < GameManager.listOfCats.Count; x++)
+		{
 		//declare a var of type Vector3, called "directionToCat", set to a vector that goes from [current position] to [cat's current position]
 		Vector3 directionToCat = (cat.position - transform.position); //might need speed 
 		//if the angle between [current forward direction] vs. [directionToCat] is less than 180 degrees, then...
@@ -43,6 +46,7 @@ public class Mouse : MonoBehaviour {
 			}
 		}
 
+	}
 	}
 }
 
